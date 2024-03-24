@@ -1,0 +1,59 @@
+{
+    "categories": [
+        {
+            "id":1,
+            "mainImage": "https://marketplace.foodotawp.com/wp-content/uploads/2021/05/Layer256-1.png",
+            "title": "Pizza",
+            "subtitle": "14 Restaurants Products",
+            "restaurants": [
+                {
+                    "id":"r1",
+                    "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/nandos.jpg",
+                    "name": "Marshall Steak House",
+                    "open": "12:08 am",
+                    "close": "11:59 pm",
+                    "location": "Suite# 9 Main Boulevard,",
+                    "profile": "https://marketplace.foodotawp.com/wp-content/uploads/2021/05/010-50x50.jpg",
+                    "items": [
+                        {
+                            "title": "Vegetable Puffs",
+                            "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/vegetable-puffs-150x150.jpg",
+                            "description": "A really delicious bakery style veg puff recipe made with mix veggies These are also known as curry",
+                            "price": "£300.00"
+                        },
+                        {
+                            "title": "Veggie Pizza",
+                            "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/Cool-Veggie-Pizza-150x150.jpg",
+                            "description": "A really delicious bakery style veg puff recipe made with mix veggies These are also known as curry",
+                            "price": "£300.00"
+                        },
+                        {
+                            "title": "Stuffed Aloo Patties",
+                            "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/Tossed-Green-Salad-150x150.jpg",
+                            "description": "A really delicious bakery style veg puff recipe made with mix veggies These are also known as curry",
+                            "price": "£300.00"
+                        },
+                        {
+                            "title": "Keto-Potstickers",
+                            "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/Tossed-Green-Salad-150x150.jpg",
+                            "description": "A really delicious bakery style veg puff recipe made with mix veggies These are also known as curry",
+                            "price": "£300.00"
+                        },
+                        {
+                            "title": "Tossed Green Salad",
+                            "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/donuts-150x150.jpg",
+                            "description": "A really delicious bakery style veg puff recipe made with mix veggies These are also known as curry",
+                            "price": "£300.00"
+                        },
+                        {
+                            "title": "Assorted Donuts",
+                            "image": "https://marketplace.foodotawp.com/wp-content/uploads/2021/04/donuts-150x150.jpg",
+                            "description": "A really delicious bakery style veg puff recipe made with mix veggies These are also known as curry",
+                            "price": "£300.00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

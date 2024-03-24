@@ -1,0 +1,67 @@
+
+
+
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(45deg, #000, #0000000a), url(https://marketplace.foodotawp.com/wp-content/uploads/2021/05/burger.png) no-repeat center;
+    background-size: cover;
+    /* display: flex; */
+}
+/* 
+.hero-left, .hero-right{
+    color: #fff;
+    flex: 1;
+} */
+.heaidng{
+
+}
+.search{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    min-width: 200px;
+    color: #000;
+}
+.search-left, .search-right{
+    flex: 1;
+}
+.search input, .search select{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+}
+.search label{
+    font-weight: 500;
+}
+.search-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.btn-yellow{
+    min-width: 150px;
+    border: none;
+    background-color: yellow;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 20px;
+    /* height: 100%; */
+}
+
+
+.feedback-left img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+@media (max-width:576px){
+    .card-btns{
+        flex-wrap: wrap;
+    } 
+}
+
+
