@@ -58,6 +58,16 @@
     height: 80px;
     object-fit: cover;
 }
+footer div img{
+    width: 180px;
+}
+footer{
+    display: flex;
+
+}
+footer div{
+    flex: 1;
+}
 @media (max-width:576px){
     .card-btns{
         flex-wrap: wrap;
