@@ -160,14 +160,14 @@
         // Work with the loaded data here
         console.log(data.categories);
         data.categories.map((item, index)=>{
-            categories.innerHTML = `
+            categories.innerHTML += `
             <div class="col-6 col-md-3">
-                    <div class="categories-card card text-center p-3 mb-3">
+                    <div class="categories-card  text-center p-3 mb-3">
                         <img src=${item.mainImage} alt="" class="w-100">
                         <h1 class="fs-3">${item.title}</h1>
                         <p class="fs-6">${item.subtitle}</p>
                       <div class=" card-btns d-flex gap-2">
-                        <a href="./viewRestaurants.html?id=${item.id}" class="w-100 btn btn-warning">Restaurants</a>
+                        <a href="./viewRestaurants.html?id=${item.id}" class="w-100  ">View Restaurants</a>
                        
                         </div>
                     </div>
@@ -177,8 +177,8 @@
 
         data.categories.map((item, index)=>{
             item.restaurants.map((item, index)=>{
-                restaurants.innerHTML =  `
-                <div class="col-6 col-md-3">
+                restaurants.innerHTML +=  `
+                <div class="col-12 col-md-3">
                     <div class="categories-card card p-3 mb-3">
                         <img src=${item.image} alt="" class="w-100">
                         <h1 class="fs-3">${item.name}</h1>

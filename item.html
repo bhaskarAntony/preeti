@@ -52,11 +52,11 @@ fetch('./data.json')
     if(item.id == id){
         item.restaurants.map((item, index)=>{
            if(item.id== r_id){
-            document.getElementById('hero-image').innerHTML = `
+            document.getElementById('hero-image').innerHTML += `
             <img src=${item.image} class="w-100">
             
             `
-            document.getElementById('name-res').innerHTML = `
+            document.getElementById('name-res').innerHTML += `
             <div>
                 <div class="hotel">
                     <img src=${item.profile}></div>    
@@ -69,7 +69,7 @@ fetch('./data.json')
             document.getElementById('len').innerText = item.items.length + '+ products'
             item.items.map((item, index)=>{
                 
-                items.innerHTML = `
+                items.innerHTML += `
             <div class="item-card card p-2 p-md-2">
                 <div class="item-card-top d-flex gap-3">
                     <img src=${item.image} alt="" class="rounded-3">
